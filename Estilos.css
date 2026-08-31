@@ -13,22 +13,64 @@
     font-style: normal;
 }
 * {
-    background-color: beige;
+    background-color: rgb(246, 242, 250);
     font-family: "roboto", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 h1 {
+    text-align: left 20px;
+    padding: 10px;
+    padding-left: 15px;
     font-family: "Gilda", sans-serif;
-    color: rgb(87, 5, 117);
+    color: rgb(117, 78, 151);
     font-size: 50px;
 }
 h2 {
+    text-align: right; 
+    Padding: 10px;
+    padding-right: 15px;
+    background-color: rgb(232, 222, 241);
     font-family: "roboto", sans-serif;
-    color: rgb(54, 25, 218);
+    color:rgb(68, 42, 91);
     font-size: 35px;
 }
 h3 {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(232, 222, 241);
+    text-align: left;
+    padding: 10px;
+    color: rgb(177, 105, 126);
     font-size: 20px;
 }
 p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(35, 22, 45);
     font-size: 15px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
 }
