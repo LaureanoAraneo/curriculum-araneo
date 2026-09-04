@@ -1,76 +1,146 @@
 /* CSS DOCUMENT */
 @charset "utf-8";
+
 @font-face {
-    font-family: "Gilda";
-    src: url(fonts/GildaDisplay-Regular.otf) format("opentype");
+    font-family: "FrederickatheGreat";
+    src: url(fonts/FrederickatheGreat-Regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: "roboto";
-    src: url(fonts/roboto.ttf) format("truetype");
+    font-family: "Caladea";
+    src: url(fonts/Caladea-Regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
-* {
+
+@font-face {
+    font-family: "AlegreyaSans";
+    src: url(fonts/AlegreyaSans-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
     background-color: rgb(246, 242, 250);
-    font-family: "roboto", serif;
+    font-family: "AlegreyaSans", serif;
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
+
+.datos-personales {
+    height: auto;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sobre-mi-y-mis-habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.idiomas,
+.formacion-academica,
+.experiencia-laboral {
+    padding: 5px;
+    margin: 5px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+ul,
+p,
+li {
+    font-family: "AlegreyaSans", serif;
+    font-size: 20px;
+}
+
 nav {
     display: flex;
     justify-content: center;
     gap: 50px;
-    text-align: center;
     padding: 10px;
-    text-align: center;
+    font-family: "AlegreyaSans", serif;
 }
+
 h1 {
-    text-align: left 20px;
+    text-align: left;
     padding: 10px;
-    padding-left: 15px;
-    font-family: "Gilda", sans-serif;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+span {
+    margin-top: 100px;
+    font-family: "FrederickatheGreat", sans-serif;
     color: rgb(117, 78, 151);
-    font-size: 50px;
+    font-size: 100px;
 }
+
 h2 {
-    text-align: right; 
-    Padding: 10px;
-    padding-right: 15px;
+    text-align: right;
+    padding: 10px;
+    padding-right: 30px;
     background-color: rgb(232, 222, 241);
-    font-family: "roboto", sans-serif;
-    color:rgb(68, 42, 91);
-    font-size: 35px;
+    font-family: "Caladea", sans-serif;
+    color: rgb(68, 42, 91);
+    font-size: 45px;
 }
+
 h3 {
     margin: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     border-radius: 10px;
     background-color: rgb(232, 222, 241);
     text-align: left;
-    padding: 10px;
     color: rgb(177, 105, 126);
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Caladea", sans-serif;
 }
-p {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: rgb(35, 22, 45);
-    font-size: 15px;
-}
-footer {
-    text-align: center;
+
+h4 {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
-    gap: 10px;
+    border-radius: 10px;
+    background-color: rgb(232, 222, 241);
+    text-align: center;
+    color: rgb(177, 105, 126);
+    font-size: 25px;
+    font-family: "Caladea", sans-serif;
+}
+
+.cuadro {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(232, 222, 241);
+    border-radius: 10px;
+    text-align: left;
+}
+
+footer {
     text-align: center;
 }
